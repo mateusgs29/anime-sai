@@ -1,0 +1,64 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+div#interface{
+    background-color: #F3F3F3; 
+}
+
+div#informacoes{
+    position: relative;  
+    background-image: url(../imagens/backgroundfrente.png);
+    background-size: cover;
+    margin-left: -10px;
+    margin-right: -10px;
+    color: #F3F3F3;
+}
+
+div#informacoes img{
+    width: 50%;
+    height: 50%;
+}
+
+div#informacoes h2{
+    font-family: 'Righteous', cursive;
+    font-size: 1.2cm;
+    position: absolute;
+    top: 60px;
+    right: 70px;
+    text-align: center;
+}
+div#informacoes ul{
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+}
+
+ul#data{
+    font-size: 25px;
+    right: 350px;
+    bottom: 20px;
+}
+
+ul#inscricao{
+    right: 50px;
+    font-size: 20px;
+    bottom: 5px;
+}
+
+ul#inscricao a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+li#linhadata{
+    font-size: 1.5cm;
+}
+
+section#corpo{
+    display: block;
+}
